@@ -1,7 +1,13 @@
 package main;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class AppInitializer {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+//        register our config files
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+        ctx.register(
+
+        );
     }
 }
